@@ -1,0 +1,10 @@
+function stringy(size) {
+  // your code here   
+//   "10" * (size/2) + "1" * (size%2) 
+  var newstring = ""
+  for (i = 1; i <= size; i++){
+    (i %2 === 0)? newstring += "0": newstring += "1"
+         
+  }
+  return newstring
+  }
