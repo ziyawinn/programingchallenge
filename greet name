@@ -1,0 +1,5 @@
+var greet = function(name) {
+ const properName = name [0].toUpperCase()
+   + name.slice(1).toLowerCase();
+  return `Hello ${properName}!`;
+};
