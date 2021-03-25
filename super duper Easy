@@ -1,0 +1,4 @@
+function problem(x){
+  //your code here
+  return isNaN(x) ? "Error" : x === '' ? "Error" : x * 50 + 6
+}
