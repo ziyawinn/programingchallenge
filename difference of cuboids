@@ -1,0 +1,5 @@
+function findDifference(a, b) {
+  let arr1 = a.reduce((acc, val) => acc * val, 1)
+  let arr2 = b.reduce((acc, val) => acc * val, 1)
+  return Math.abs(arr1 - arr2)
+}
