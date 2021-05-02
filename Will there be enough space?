@@ -1,0 +1,8 @@
+
+function enough(cap, on, wait) {
+  
+  return (on+wait > cap) ? on + wait-cap : 0;
+}
+//   on plus wait = there are multiple people on and there may be a wait but if < cap = 
+// capicty  (? ) is a substituite for if else or else if  
+//  so in other words get on there may be a waait but not at capacity
