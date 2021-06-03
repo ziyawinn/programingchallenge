@@ -1,0 +1,4 @@
+ function litres(time) {
+  result = time / 2;
+  return Math.floor(result);
+}
