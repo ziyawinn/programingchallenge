@@ -1,0 +1,3 @@
+function divide(weight){
+  return weight > 3 ? weight.toString().split('').slice(-1) % 2 === 0 : false;
+  }
