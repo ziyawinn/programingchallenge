@@ -1,0 +1,9 @@
+var min = function(list){
+    let minList = list.sort((a,b) => a-b);
+    return minList[0];
+}
+
+var max = function(list){
+    let maxList = list.sort((a,b) => a-b).reverse();
+    return maxList[0];
+}
